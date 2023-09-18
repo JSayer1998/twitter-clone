@@ -1,0 +1,132 @@
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    width: 621px;
+    height: 1900px;
+    background: #fff;}
+
+.feed-head {
+    display: flex;
+    align-items: center;
+    max-width: 621px;
+    height: 40px;
+    position: sticky;
+    margin-top: 0px;
+    padding: 8px 10px;
+    line-height: 1.5em;
+    font-size: 17px;
+    border-bottom: 1px solid #E6ECF0;}
+
+.tweet-section {
+    display: flex;
+    flex-direction :column;
+    max-width: 621px;
+    height: 160px;
+    border-bottom: 10px solid rgb(230, 236, 240);}
+
+.image-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+    padding: 4.8px 19.91px 4.8px 16px;}
+
+.tweet-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;}
+
+.tweet-input{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    padding: 18px 16px 18px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    border: none;
+    font-size: 17px;}
+
+.button-types-post {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;}
+
+.tweet-type-buttons {
+    display: flex;
+    flex-direction: row; 
+    gap: 5px;
+    align-items: center;
+    padding-left: 20px;
+    cursor: pointer;}
+
+.tweet-button {
+    width: 100px;
+    height: 42px;
+    margin-right: 6px;
+    border-radius: 30px;
+    background: #44a6e3;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    border-color: transparent;
+    cursor: pointer;}
+
+.tweet-button:hover {
+    background:  #44a6e37a;}
+
+.tweet {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    max-width: 619px;
+    height: 100hv;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #E6ECF0;}
+
+.left-side{
+    display: flex;
+    width: 80px;
+    align-items: flex-start;}
+
+.profile-picture-tweet {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    padding: 20px;}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    width: 1fr;
+    gap: 8px;
+    padding-top: 20px;
+    padding-right: 20px;}
+
+.tweet-content {margin: 8px 0px;}
+
+.image-tweet {
+    display: flex;
+    width: 450px;
+    height: 337.5px;
+    border-radius: 10px;}
+
+.tweet-buttons {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding-top:10px;}
+
+.button-tweet {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    background: transparent;
+    align-items: center;
+    border-color: transparent;
+    cursor: pointer;}
